@@ -114,14 +114,15 @@ section p {
 
 footer {
     font-family: "Quicksand", sans-serif;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
 }
 
 footer p {
     text-align: center;
     font-weight: 600;
     font-size: 1rem;
+    padding: .75rem;
 }
 
 footer p:nth-last-of-type(1) {
