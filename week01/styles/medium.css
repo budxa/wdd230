@@ -6,8 +6,8 @@
   }
 
   .item {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     padding: 1rem;
     text-align: center;
     border: 5px solid #000;
@@ -15,6 +15,6 @@
   }
 
   img {
-    max-width: 450px;
+    max-width: 430px;
   }
 }
