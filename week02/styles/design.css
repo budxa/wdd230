@@ -9,24 +9,35 @@ footer {
 	margin: 0 auto;
 }
 
-marquee {
+.banner {
 	padding: 1rem;
-	background-color: #eee;
+	background-color: #e1e6f9;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    font-weight: 600;
+    word-break: break-word;
 }
 
 h1 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem;
 }
 
 main {
 	display: grid;
     grid-template-columns: 1fr 200px;
     grid-gap: 1.5rem;
+   
 }
 
 h2 {
 	color: navy;
     grid-column: 1/3;
+    margin: 1rem;
+}
+
+section {
+    padding: 1rem;
 }
 
 article p {
@@ -37,6 +48,7 @@ article p {
 	color: #000;
     border: 1px solid #c8c8c8;
 	background-color: #f5eff4;
+    grid-column: 1/3;
     padding: 1rem;
 }
 
@@ -44,5 +56,4 @@ footer {
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
-	text-align: right;
 }
