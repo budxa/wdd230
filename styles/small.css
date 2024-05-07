@@ -36,6 +36,10 @@ header span {
   margin: 1rem 0;
 }
 
+.card ul li a:hover{
+  color: #1f69ff;
+}
+
 .parent h2 {
   background-color: #0f1d2b;
   font-family: "Raleway", sans-serif;
@@ -106,6 +110,68 @@ nav ul li {
 
 .open ul {
   display: block;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark header {
+  background-color: #b9cdee;
+  color: #000;
+}
+
+.dark #toggle {
+  background-color: #b9cdee;
+  color: #000;
+}
+
+.dark footer p:nth-last-of-type(1){
+  background-color: #b9cdee;
+  color: #380000;
+}
+
+.dark section {
+  background-color: #111010;
+  color: white;
+}
+
+.dark .parent h2 {
+  background-color: #b9cdee;
+  color: #000;
+}
+
+.dark .card ul li a {
+  color: #77a4fd;
+}
+
+.dark .card ul li a:visited{
+  color: #a1a3a5;
+}
+
+.dark .card ul li a:hover{
+  color: #1f69ff;
+}
+
+.dark footer {
+  background-color: #b9cdee;
+  color: #000;
+}
+
+#toggle::before {
+  content: "🔦";
+}
+
+#toggle {
+  font-size: 1.25rem;
+  padding: 0;
+  border: #0f1d2b;
+  background-color: #0f1d2b;
+  position: absolute;
+  top: 6.5rem;
+  right: 1rem;
+  cursor: pointer;
 }
 
 header {

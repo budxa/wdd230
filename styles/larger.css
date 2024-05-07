@@ -17,6 +17,11 @@
     display: none;
   }
 
+  #toggle {
+    top: 6rem;
+    right: 1.47rem;
+  }
+
   .navigation ul {
     display: flex;
     justify-content: space-evenly;
