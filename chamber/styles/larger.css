@@ -1,6 +1,20 @@
 /* Larger View */
 
-@media screen and (min-width: 55rem) {
+@media only screen and (min-width: 63.87rem) {
+ 
+    header {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    footer {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;   
+    }
+}
+
+
+@media only screen and (min-width: 55rem) {
 
     header {
 
@@ -11,15 +25,10 @@
         justify-content: space-between;
         padding: 10px 5%; 
         transition: all .50s ease;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        
     }
 
     footer {
         padding: 10px 5%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
     }
     
     .header-section h1 {
@@ -161,7 +170,7 @@
 
 /* Medium View */
 
-@media screen and (min-width: 50rem) {
+@media only screen and (min-width: 50rem) {
 
     footer {
         padding: 10px 5%;
@@ -263,6 +272,7 @@
     
 }
 
+/* Header h1 */
 
 @media only screen and (min-width: 18.18rem) {
 
