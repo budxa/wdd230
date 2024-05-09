@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greendale Chamber of Commerce Home Page</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo&family=Gabarito&family=Lato:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <meta property="og:title" content="WDD 230 - Chamber of Commerce Page">
+    <meta property="og:type" content="https://budxa.github.io/wdd230/">
+    <meta property="og:image"
+        content="https://w0.peakpx.com/wallpaper/763/259/HD-wallpaper-anime-room-book-computer-night.jpg">
+    <meta property="og:url" content="https://budxa.github.io/wdd230/">
+    <meta name="description" content="WDD 230 - Jerald R. Mudzingwa - Chamber of Commerce Page">
+    <meta name="author" content="Jerald R. Mudzingwa">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <a class="logo" href="index.html">
+                <img src="images/logo.webp" height="80" width="50" alt="Greendale Logo">
+            </a>
+            <div>
+                <h3> Greendale</h3>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="https://www.facebook.com">
+                <img src="images/facebook.webp" height="60" width="50" alt="fb icon">
+            </a>
+            <a href="https://linkedin.com" target="https://www.linkedin.com">
+                <img src="images/linkedin.webp" height="60" width="50" alt="twitter icon">
+            </a>
+        </div>
+
+        <nav>
+            <button id="menu" aria-label="☰"></button>
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="hero">
+        <div id="hero-img">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 750px)">
+                <img src="images/hero-large.webp" height="500" width="1000"
+                    alt="Greendale Chamber of Commerce Hero Image">
+            </picture>
+            <!-- <img src="images/hero.webp" alt="Greendale Chamber Of Commerce Hero image"> -->
+        </div>
+        <div class="join-box">
+            <a class="join" href="#">Join Now</a>
+        </div>
+    </div>
+    <main class="home-main">
+        <div id="first-grid">
+            <section class="news-release">
+                <h3>News Release</h3>
+                <hr>
+                <p>
+                    Greendale Chamber of Commerce has been praised as a district model
+                    of excellence, as it has set new benchmarks for community driven
+                    economic growth. This recognition comes as a result of the chamber's
+                    awareness and commitment to advance support of local businesses,
+                    networking and enterpreneurship. With this rate of growth we can see
+                    this region reaching new heights preety soon.
+                </p>
+            </section>
+            <section class="weather">
+                <h3>Weather</h3>
+                <hr>
+                <p>Wind: <strong>9mph</strong></p>
+                <p>Wind Chill: <strong><span id="windChill"></span>&deg;</strong></p>
+            </section>
+        </div>
+        <div id="second-grid">
+            <section class="customs">
+                <h3>Dan's Customs</h3>
+                <p>"Offering the best car service"</p>
+                <ul>
+                    <li><a href="#">hello@danscustoms.com</a></li>
+                    <li><a href="#">+263-111-111-111</a></li>
+                    <li><a href="#">Website</a></li>
+                </ul>
+            </section>
+            <section class="more">
+                <h3>Want To Know More?</h3>
+                <p>
+                    Join the chamber of commerce and get to know how you can benefit
+                    from it!
+                </p>
+                <ul>
+                    <li><a href="#">+263-999-999-999</a></li>
+                    <li><a href="#">Website</a></li>
+                </ul>
+            </section>
+            <section class="comments">
+                <h3>Comments</h3>
+                <p>
+                    Joining the chamber of commerce has brought about great growth in my
+                    business for the past 7 months now and I can say that it is one of
+                    the best decisions that I have made.
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-part1">
+            <div class="footer-logo">
+                <img class="bottom-logo" src="images/logo.webp" height="80" width="50"
+                    alt="Footer Logo of Greendale Chamber Of Commerce">
+            </div>
+            <div class="address-section">
+                <h3>Greendale</h3>
+                <h3>Chamber of Commerce</h3>
+                <p class="footer-address">45 A Waterfalls, Harare, Zimbabwe</p>
+                <p class="footer-email">greendalecoc@gmail.com</p>
+                <p class="footer-phone-number">+(263) 786 284 722</p>
+                <a class="footer-location"
+                    href="https://www.google.com/maps/place/The+Church+of+Jesus+Christ+of+Latter-day+Saints/@-17.87502,31.0382116,17z/data=!3m1!4b1!4m6!3m5!1s0x1931a37a414f7783:0xa1879ecb9ca6ca2!8m2!3d-17.8750251!4d31.0407865!16s%2Fg%2F11g8l6k3zw?entry=ttu">Location
+                    Map</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-part2">
+            <div class="info">
+                <p>&copy;<span id="year"></span> Greendale Chamber</p>
+                <p><strong>Jerald R. Mudzingwa</strong></p>
+                <p>WDD 230 Project</p>
+            </div>
+            <p class="date">Last Modified: <span id="currentdate"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
