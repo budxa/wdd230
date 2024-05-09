@@ -22,6 +22,10 @@
         border-top-right-radius: 10px;
     }
     
+    .header-section h1 {
+        text-align: center;
+    }
+
     .info {
         display: flex;
         justify-content: center;
@@ -162,6 +166,10 @@
     footer {
         padding: 10px 5%;
     }
+
+    .header-section h1 {
+        text-align: center;
+    }
     
     .info {
         display: flex;
@@ -251,6 +259,15 @@
         background-color: #9ed0ff;
         color: #000;
         transition: .3s;
+    }
+    
+}
+
+
+@media only screen and (min-width: 18.18rem) {
+
+    .header-section h1 {
+        text-align: center;
     }
     
 }

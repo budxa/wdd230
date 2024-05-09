@@ -44,7 +44,12 @@ a {
     text-decoration: none;
 }
 
-.logo h3 {
+h1 {
+    margin: 0;
+    font-family: var(--text-color);
+}
+
+.logo h1 {
     color: var(--text-color);
     font-size: 1.5rem;
 }
@@ -82,13 +87,17 @@ a {
     align-items: center;
 }
 
+.header-section h1 {
+    margin: 0;
+    font-family: var(--hf-font);
+}
+
 .header-section h3 {
     margin: 0;
     font-family: var(--hf-font);
 }
 
-.header-section h3:nth-child(1) {
-    text-align: center;
+.header-section h1 {
     font-size: clamp(1rem, 5vw, 2rem );
 }
 
