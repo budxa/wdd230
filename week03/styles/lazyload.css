@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    max-width: 1300px;
+    padding: .75rem;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header, footer {
+    text-align: center;
+    background-color: rgb(66, 64, 116);
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    max-width: 400px;
+    display: block;
+    margin: 100px auto;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 30vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.hero {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

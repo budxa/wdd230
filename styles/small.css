@@ -24,6 +24,48 @@ header span {
   text-align: center;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+}
+
+.herolabel {
+  position: absolute;
+  background: radial-gradient(#fff, #4d5b97);
+  border: 1px solid rgba(0,0,0,.75);
+  padding: .6rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+  top: 2rem;
+  left: 1rem;
+}
+
+.herolabel p {
+  margin: 0;
+  padding: .2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Great Vibes", serif;
+}
+
+.map-wrapper {
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
+.map {
+  width: 100%;
+}
+
 .parent {
   margin: 1rem 2vw;
 }
@@ -116,9 +158,17 @@ nav ul li {
   background-color: #000;
   color: #fff;
 }
-
+.dark #menu {
+  background-color: #b9cdee;
+  color: #000;
+  font-weight: 900;
+}
 .dark header {
   background-color: #b9cdee;
+  color: #000;
+}
+
+.dark .herolabel p {
   color: #000;
 }
 
@@ -159,8 +209,13 @@ nav ul li {
   color: #000;
 }
 
-#toggle::before {
-  content: "🔦";
+/* #toggle::before {
+  content: "";
+} */
+
+#toggle img {
+  background-color: #f2f1f1;
+  border-radius: 100px;
 }
 
 #toggle {
@@ -169,7 +224,7 @@ nav ul li {
   border: #0f1d2b;
   background-color: #0f1d2b;
   position: absolute;
-  top: 6.5rem;
+  top: 9.7rem;
   right: 1rem;
   cursor: pointer;
 }
@@ -183,6 +238,7 @@ header {
 
 .myphoto {
   border-radius: 5px;
+
 }
 
 main h1 {
