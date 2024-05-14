@@ -173,31 +173,37 @@
   .discover-greendale {
     grid-column: 1;
     grid-row: 1;
+    align-self: center;
   }
 
   .discover-events {
     grid-column: 1;
     grid-row: 2;
+    align-self: center;
   }
 
   .discover-economic {
     grid-column: 1;
     grid-row: 3;
+    align-self: center;
   }
 
   .discover-history {
     grid-column: 1;
     grid-row: 4;
+    align-self: center;
   }
 
   .discover-education {
     grid-column: 1;
     grid-row: 5;
+    align-self: center;
   }
 
   .discover-geographic {
     grid-column: 1;
     grid-row: 6;
+    align-self: center;
   }
 
   .image-sidebar {
