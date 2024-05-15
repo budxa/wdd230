@@ -224,7 +224,7 @@
   }
 
   .image-sidebar img:hover {
-    opacity: 0.8s;
+    opacity: 0.8;
     transform: scale(1.05);
     transition: transform 0.2s;
   }
@@ -385,7 +385,7 @@
   }
 
   .image-sidebar img:hover {
-    opacity: 0.8s;
+    opacity: 0.8;
     transform: scale(1.05);
     transition: transform 0.2s;
   }

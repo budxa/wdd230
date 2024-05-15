@@ -341,6 +341,11 @@ section p {
 
 /* Discover Page */
 
+/* section span {
+  text-align: center;
+  margin: 1rem;
+} */
+
 .last-visit {
   text-align: center;
   background-color: var(--bg-color);
@@ -353,6 +358,9 @@ section p {
   font-size: .8rem;
 }
 
+.last-visit p {
+  font-size: 1.15rem;
+}
 
 .discover-main {
   display: block;
@@ -366,7 +374,11 @@ section p {
   height: fit-content;
 }
 
-.image-sidebar picture img {
+figure {
+  margin: 0;
+}
+
+.image-sidebar figure img {
   max-width: 100%;
   height: auto;
   display: flex;
@@ -426,6 +438,10 @@ section p {
 .discover-geographic p {
   font-family: var(--paragraph-font);
   font-weight: 600;
+}
+
+.image-sidebar h3 {
+  font-family: var(--heading-font);
 }
 
 .image-sidebar p {
