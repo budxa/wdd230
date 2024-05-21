@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerald R. Mudzingwa - WDD 230 - Web Frontend Development - Form Page</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="WDD 230 Frontend Development Form Page">
+    <meta property="og:image"
+        content="https://w0.peakpx.com/wallpaper/763/259/HD-wallpaper-anime-room-book-computer-night.jpg">
+    <meta property="og:url" content="https://budxa.github.io/wdd230/">
+    <meta name="description" content="WDD 230 - Jerald R. Mudzingwa - Assignment Portal Form Page">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Jerald R. Mudzingwa">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <img class="myphoto" src="images/profile.webp" alt="Jerald R. Mudzingwa Profile" height="149" width="120">
+        <span>Jerald R. Mudzingwa</span>
+    </header>
+    <button id="toggle">
+        <img src="images/icon.webp" alt="Dark theme toggle image" width="20" height="20">
+    </button>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="chamber/index.html" title="Chamber Site">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" title="Site Plan"> Site Plan</a></li>
+            <li><a href="form.html" title="Form" class="active">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Course Application Form</h1>
+        <form method="get" action="record.html" class="data">
+
+            <fieldset>
+                <legend>Application Information</legend>
+                <label>
+                    Username* <input type="text" id="username" name="username" title="Please enter your username"
+                        required>
+                </label>
+                <label>
+                    Password* <input type="password" id="pwd1" name="pwd1"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
+                        title="8 characters inclusive with at least on ne number, one special character, one upper case and one lower case letter."
+                        required>
+                </label>
+                <label>
+                    Confirm Password* <input type="password" id="pwd2" name="pwd2"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
+                        title="8 characters inclusive with at least on ne number, one special character, one upper case and one lower case letter."
+                        required>
+                </label>
+                <div id="feedback"></div>
+
+                <label>
+                    Email* <input type="email" id="email" name="email" placeholder="someone@byui.edu"
+                        pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Email domain should be a byui.edu domain one" required>
+                </label>
+                <label>
+                    Page Rating
+                </label>
+                <div id="rangevalue">1</div>
+                <input type="range" id="rng" name="rng" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+            </fieldset>
+
+            <input type="submit" value="Sign Up">
+
+        </form>
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="year"></span> 🌗 Jerald R. Mudzingwa 🌓 Zimbabwe
+        </p>
+        <p>Last Modification: <span id="currentdate"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/pageVisits.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

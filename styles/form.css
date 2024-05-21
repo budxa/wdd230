@@ -1,0 +1,91 @@
+:root {
+    --labelcolor: #930707;
+    --brdradius: 6px;
+    --transistion: .6s;
+    --formfont: "Kanit";
+}
+
+.data fieldset {
+    margin: 2rem 0;
+    border: 1px solid #dedede;
+    border-radius: var(--brdradius);
+    padding: .5rem 2%;
+    max-width: 900px;
+}
+
+.data legend {
+    color: #3f28d7;
+    padding: 0 .5rem;
+    margin: 0;
+    font-family: var(--formfont);
+}
+
+.data label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--labelcolor);
+    font-size: .9rem;
+    font-family: var(--formfont);
+}
+
+.data input[type="text"],
+.data input[type="password"],
+.data input[type="email"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: var(--brdradius);
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.data input:required {
+    border-right: solid 8px red;
+    transition: var(--transistion);
+}
+
+.data input:required:valid {
+    border-right: solid 8px green;
+    transition: var(--transistion);
+}
+
+.data input[type="submit"] {
+    border: none;
+    border-radius: var(--brdradius);
+    background-image: linear-gradient(#24232c, #110f35);
+    color: #fff;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1px 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+#rangesvalues {
+    display: flex;
+    max-width: 200px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+#rng {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+/* .data label.dark {
+    color: rgb(255, 26, 26);
+}
+
+.data fieldset.dark {
+    background-color: #9993c4;
+} */
+
+#feedback {
+    color: var(--labelcolor);
+}

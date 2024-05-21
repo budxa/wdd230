@@ -1,0 +1,27 @@
+:root {
+    --pfont: "Quicksand"
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-family: var(--pfont);
+    font-size: larger;
+    font-weight: 800;
+}
+
+#toggle {
+    right: 2.1rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
