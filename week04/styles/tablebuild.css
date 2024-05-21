@@ -1,0 +1,56 @@
+
+body {
+    margin: auto;
+    max-width: 1300px;
+    padding: .75rem;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 4rem;
+}
+
+header, footer {
+    text-align: center;
+    background-color: rgb(66, 64, 116);
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid rgb(168, 168, 168);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+    font-style: italic;
+}
+
+thead th { 
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+thead :first-child {
+    background-color: black;
+}
+
+thead :nth-child(2) {
+    background-color: rgb(67, 67, 67);
+    font-style: italic;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eeee;
+}
