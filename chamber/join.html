@@ -46,77 +46,59 @@
         <nav>
             <button id="menu" aria-label="☰"></button>
             <ul class="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
-                <li><a href="form.html">Join</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
             </ul>
         </nav>
     </header>
-    <div id="hero">
-        <div id="hero-img">
-            <picture>
-                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-medium.webp" media="(max-width: 750px)">
-                <img src="images/hero-large.webp" height="500" width="1000"
-                    alt="Greendale Chamber of Commerce Hero Image">
-            </picture>
+
+    <main class="form-main">
+        <div class="form-grid">
+
+            <h1>Membership Registration</h1>
+            <form method="get" action="thankyou.html" class="data">
+
+                <fieldset>
+                    <legend>Application Information</legend>
+                    <label id="priority">First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label id="priority">Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label>Title/Position <input type="text" id="position" name="position"
+                            pattern="^[a-zA-Z0-9]+(?:[\w -]*[a-zA-Z0-9]+){7,}*$"
+                            title="alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                    <label id="priority">Email* <input type="email" id="email" name="email"
+                            placeholder="someone@gmail.com" required></label>
+                    <label id="priority">Phone* <input type="tel" id="phone" name="phone" placeholder="3310001235"
+                            required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Information</legend>
+                    <label id="priority">Business/Organization's Name* <input type="text" id="business" name="business"
+                            required></label>
+
+                    <div>Membership Level</div>
+                    <label><input type="radio" name="membership" value="npMembership">Np Membership(No Fee)</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+
+                    <label>
+                        Business/Organization's Description
+                    </label>
+                    <textarea name="user-input" id="msg"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Register Now">
+
+            </form>
+
+
+
+            
         </div>
-        <div class="join-box">
-            <a class="join" href="form.html">Join Now</a>
-        </div>
-    </div>
-    <main class="home-main">
-        <div id="first-grid">
-            <section class="news-release">
-                <h3>News Release</h3>
-                <hr>
-                <p>
-                    Greendale Chamber of Commerce has been praised as a district model
-                    of excellence, as it has set new benchmarks for community driven
-                    economic growth. This recognition comes as a result of the chamber's
-                    awareness and commitment to advance support of local businesses,
-                    networking and entrepreneurship. With this rate of growth we can see
-                    this region reaching new heights pretty soon.
-                </p>
-            </section>
-            <section class="weather">
-                <h3>Weather</h3>
-                <hr>
-                <p>Wind: <strong>9mph</strong></p>
-                <p>Wind Chill: <strong><span id="windChill"></span>&deg;</strong></p>
-            </section>
-        </div>
-        <div id="second-grid">
-            <section class="customs">
-                <h3>Dan's Customs</h3>
-                <p>"Offering the best car service"</p>
-                <ul>
-                    <li><a href="#">hello@danscustoms.com</a></li>
-                    <li><a href="#">+263-111-111-111</a></li>
-                    <li><a href="#">Website</a></li>
-                </ul>
-            </section>
-            <section class="more">
-                <h3>Want To Know More?</h3>
-                <p>
-                    Join the chamber of commerce and get to know how you can benefit
-                    from it!
-                </p>
-                <ul>
-                    <li><a href="#">+263-999-999-999</a></li>
-                    <li><a href="#">Website</a></li>
-                </ul>
-            </section>
-            <section class="comments">
-                <h3>Comments</h3>
-                <p>
-                    Joining the chamber of commerce has brought about great growth in my
-                    business for the past 7 months now and I can say that it is one of
-                    the best decisions that I have made.
-                </p>
-            </section>
-        </div>
+
     </main>
     <footer>
         <div class="footer-part1">

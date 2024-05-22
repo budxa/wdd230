@@ -450,6 +450,141 @@ figure {
   font-weight: 600;
 }
 
+/* Form Page */
+.form-main h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
+.data label {
+  display: block;
+  padding-top: 1rem;
+  font-size: .9rem;
+  font-family: var(--paragraph-font);
+  font-weight: 600;
+  padding-bottom: .5rem;
+}
+
+
+fieldset #priority {
+  color: #da320c;
+}
+
+.data fieldset {
+  margin: 3rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: .5rem 2%;
+  max-width: 600px;
+}
+
+
+.data legend {
+  color: #27358f;
+  padding: 0 .5rem;
+  margin: 0;
+  font-family: var(--heading-font);
+}
+
+.data div {
+  padding-top: 1rem;
+  color: #27358f;
+  font-size: .9rem;
+  font-family: var(--heading-font);
+}
+
+.data textarea {
+  display: block;
+  background-color: #eee;
+  border: 1px solid #999;
+  padding: .75rem;
+  width: 83%;
+  max-width: 350px;
+  border-radius: 5px;
+}
+
+.data input[type="text"],
+.data input[type="tel"],
+.data input[type="email"],
+.data textarea {
+  background-color: #eee;
+  display: block;
+  border: solid 1px #999;
+  border-radius: 5px;
+  padding: .75rem;
+  width: 91%;
+  max-width: 350px;
+  appearance: none;
+}
+
+.data input[type="radio"] {
+  margin-right: 6px;
+}
+
+.data input[type="submit"] {
+  border: none;
+  background-image: linear-gradient(#7f70d2, #2d2367);
+  color: #fff;
+  border-radius: 5px;
+  padding: .8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: -1rem 2% 2rem 2%;
+  box-shadow: 1px 1px 4px #999;
+  font-family: var(--join-font);
+  font-style: italic;
+}
+
+.data input:required {
+  border-bottom: 6px solid red;
+  transition: .6s;
+}
+
+.data input:required:valid {
+  border-bottom: 6px solid green;
+  transition: .6s;
+}
+
+/* .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form-grid h1 {
+  grid-column: 1/3;
+} */
+
+
+
+
+
+
+
+
+
+/* Thank You Page */
+
+.thanks-main {
+  text-align: center;
+  font-family: var(--paragraph-font);
+  
+}
+
+.thanks-main h1 {
+  font-weight: bold;
+}
+
+.thanks-main p {
+  font-size: large;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 55rem) {
   nav ul {
     padding: 0;
