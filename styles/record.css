@@ -1,27 +1,30 @@
 :root {
-    --pfont: "Quicksand"
+  --pfont: "Quicksand";
 }
 
-h1, p {
-    text-align: center;
+h1,
+p {
+  text-align: center;
 }
 
 p {
-    font-family: var(--pfont);
-    font-size: larger;
-    font-weight: 800;
-}
-
-#toggle {
-    right: 2.1rem;
+  font-family: var(--pfont);
+  font-size: larger;
+  font-weight: 800;
 }
 
 main {
-    margin: 3rem;
+  margin: 3rem;
 }
 
 footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 47.5rem) {
+  #toggle {
+    right: 2.1rem;
+  }
 }
