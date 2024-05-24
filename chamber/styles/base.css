@@ -475,11 +475,11 @@ figure {
 }
 
 .data fieldset {
-  margin: 3rem 0;
+  margin: 3rem auto;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: .5rem 2%;
-  max-width: 700px;
+  max-width: 400px;
 }
 
 
@@ -539,9 +539,10 @@ figure {
   font-style: italic;
 }
 
-.submit input[type="submit"] {
-  margin: 0 auto;
+.data .submit {
+  text-align: center;
 }
+
 
 
 .data input[type="submit"]:hover {
@@ -610,7 +611,6 @@ figure {
   width: 100%;
   height: auto;
   margin-top: -1.75rem;
-  /* z-index: -1; */
 }
 
 

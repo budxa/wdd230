@@ -229,6 +229,7 @@
     transition: transform 0.2s;
   }
 
+
   /* Form Page */
 
   .form-grid {
@@ -240,10 +241,25 @@
     grid-column: 1/3;
   }
 
+  .data fieldset {
+    margin: 3rem 0;
+    max-width: 700px;
+  }
+
+
+  .data input[type="submit"] {
+    margin: -1rem 2% 2rem 2%;
+  }
+
+  .data .submit {
+    text-align: unset;
+  }
+
   #membership-cards div {
     box-shadow: 1px 1px 2px #999;
   }
 }
+
 
 /* Medium View */
 
