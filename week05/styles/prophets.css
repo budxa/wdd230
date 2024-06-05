@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+main section{
+    margin: .7rem;
+    padding: .5rem;
+    background-color: azure;
+    box-shadow: 1px 1px 5px 1px #999;
+    border-radius: 4px;
+}
+
+main img {
+    width: 60%;
+    height: auto;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding: .4rem;
+
+}

@@ -1,0 +1,85 @@
+{
+    "businesses" : [
+        {
+            "organization" : "Econet Wireless",
+            "address" : "206 Nyerere DR",
+            "phone" : "+263 772 546 740",
+            "email" : "econetwilreless@gmail.com",
+            "logo" : "images/econet.webp",
+            "website" : "https://www.econet.co.zw",
+            "membership" : "Gold"
+        },
+        {
+            "organization" : "ZOL Fibronics",
+            "address" : "9 Quagmire Street",
+            "phone" : "+263 777 644 128",
+            "email" : "zol@gmail.com",
+            "logo" : "images/zol.webp",
+            "website" : "https://www.zol.co.zw",
+            "membership" : "Gold"
+        },
+        {
+            "organization" : "Edgars",
+            "address" : "5 Miles Ave",
+            "phone" : "+263 772 876 632",
+            "email" : "edgarsfashion@gmail.com",
+            "logo" : "images/edgars.webp",
+            "website" : "https://www.edgars.com",
+            "membership" : "Gold"
+        },
+        {
+            "organization" : "Spar Letombo",
+            "address" : "71 Magamba RD",
+            "phone" : "+263 772 533 745",
+            "email" : "sparletombo@gmail.com",
+            "logo" : "images/spar.webp",
+            "website" : "https://www.spar.co.zw",
+            "membership" : "Silver"
+        },
+        {
+            "organization" : "Engen Service Station",
+            "address" : "57 Arcedia Street",
+            "phone" : "+263 776 879 450",
+            "email" : "engenfuels@gmail.com",
+            "logo" : "images/engen.webp",
+            "website" : "https://www.engenfuels.com",
+            "membership" : "Silver"
+        },
+        {
+            "organization" : "Metro Peach",
+            "address" : "741 Peterson DR",
+            "phone" : "+263 786 034 713",
+            "email" : "metrohypermarket@gmail.com",
+            "logo" : "images/metro.webp",
+            "website" : "https://www.metrohypermarket.co.zw",
+            "membership" : "Bronze"
+        },
+        {
+            "organization" : "Total Service Station",
+            "address" : "84 Ngwere Ave",
+            "phone" : "+263 767 586 902",
+            "email" : "totalgas@gmail.com",
+            "logo" : "images/total.webp",
+            "website" : "https://www.totalgas.com",
+            "membership" : "Bronze"
+        },
+        {
+            "organization" : "Choppies",
+            "address" : "67 Chatima Street",
+            "phone" : "+263 777 243 816",
+            "email" : "choppiessupermarket@gmail.com",
+            "logo" : "images/choppies.webp",
+            "website" : "https://www.choppies.co.zw",
+            "membership" : "Free"
+        },
+        {
+            "organization" : "Rainbow Towers",
+            "address" : "9 Takawira Street",
+            "phone" : "+263 778 108 997",
+            "email" : "rainbowtowers@gmail.com",
+            "logo" : "images/rainbow.webp",
+            "website" : "https://www.rainbowtowers.co.zw",
+            "membership" : "Free"
+        }
+    ]
+}

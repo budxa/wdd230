@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greendale Chamber of Commerce Home Page</title>
+    <title>Greendale Chamber of Commerce Directory Page</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Aleo&family=Gabarito&family=Lato:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap"
         rel="stylesheet">
 
-    <meta property="og:title" content="WDD 230 - Chamber of Commerce Home Page">
+    <<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta property="og:title" content="WDD 230 - Chamber of Commerce Directory Page">
     <meta property="og:type" content="website">
     <meta property="og:image"
         content="https://w0.peakpx.com/wallpaper/763/259/HD-wallpaper-anime-room-book-computer-night.jpg">
     <meta property="og:url" content="https://budxa.github.io/wdd230/">
-    <meta name="description" content="WDD 230 - Jerald R. Mudzingwa - Chamber of Commerce Home Page">
+    <meta name="description" content="WDD 230 - Jerald R. Mudzingwa - Chamber of Commerce Directory Page">
     <meta name="author" content="Jerald R. Mudzingwa">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -46,77 +47,26 @@
         <nav>
             <button id="menu" aria-label="☰"></button>
             <ul class="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
-    <div id="hero">
-        <div id="hero-img">
-            <picture>
-                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-medium.webp" media="(max-width: 750px)">
-                <img src="images/hero-large.webp" height="500" width="1000"
-                    alt="Greendale Chamber of Commerce Hero Image">
-            </picture>
-        </div>
-        <div class="join-box">
-            <a class="join" href="join.html">Join Now</a>
-        </div>
     </div>
-    <main class="home-main">
-        <div id="first-grid">
-            <section class="news-release">
-                <h3>News Release</h3>
-                <hr>
-                <p>
-                    Greendale Chamber of Commerce has been praised as a district model
-                    of excellence, as it has set new benchmarks for community driven
-                    economic growth. This recognition comes as a result of the chamber's
-                    awareness and commitment to advance support of local businesses,
-                    networking and entrepreneurship. With this rate of growth we can see
-                    this region reaching new heights pretty soon.
-                </p>
-            </section>
-            <section class="weather">
-                <h3>Weather</h3>
-                <hr>
-                <p>Wind: <strong>9mph</strong></p>
-                <p>Wind Chill: <strong><span id="windChill"></span>&deg;</strong></p>
-            </section>
+    <main class="directory-main">
+        <div class="menu">
+            <button id="grid">
+                <i class="fas fa-th"></i>
+            </button>
+            <button id="list">
+                <i class="fas fa-list"></i>
+            </button>
         </div>
-        <div id="second-grid">
-            <section class="customs">
-                <h3>Dan's Customs</h3>
-                <p>"Offering the best car service"</p>
-                <ul>
-                    <li><a href="#">hello@danscustoms.com</a></li>
-                    <li><a href="#">+263-111-111-111</a></li>
-                    <li><a href="#">Website</a></li>
-                </ul>
-            </section>
-            <section class="more">
-                <h3>Want To Know More?</h3>
-                <p>
-                    Join the chamber of commerce and get to know how you can benefit
-                    from it!
-                </p>
-                <ul>
-                    <li><a href="#">+263-999-999-999</a></li>
-                    <li><a href="#">Website</a></li>
-                </ul>
-            </section>
-            <section class="comments">
-                <h3>Comments</h3>
-                <p>
-                    Joining the chamber of commerce has brought about great growth in my
-                    business for the past 7 months now and I can say that it is one of
-                    the best decisions that I have made.
-                </p>
-            </section>
-        </div>
+        <h2>Business Directory</h2>
+        <article id="members" class="grid-directory"></article>
+
     </main>
     <footer>
         <div class="footer-part1">
@@ -148,6 +98,7 @@
         </div>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 
 </html>

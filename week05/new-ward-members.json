@@ -1,0 +1,29 @@
+{
+    "familyName" : "Kusanagi",
+    "dateMovedIn" : "12 February 2018",
+    "numberInFamily" : 4,
+    "visitedByBishopric" : true,
+    "members" : [
+        {
+            "name" : "Ronan Kusanagi",
+            "gender" : "Male",
+            "birthdate" : "04 May 1972"
+        },
+        {
+            "name" : "Yvonne Kusanagi",
+            "gender" : "Female",
+            "birthdate" : "22 November 1976"
+        },
+        {
+            "name" : "Aizen Kusanagi",
+            "gender" : "Male",
+            "birthdate" : "28 June 1999"
+        },
+        {
+            "name" : "Ryan Kusanagi",
+            "gender" : "Male",
+            "birthdate" : "15 September 2002"
+        }
+
+    ]
+}
