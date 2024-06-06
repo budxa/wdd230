@@ -82,6 +82,16 @@ header span {
   color: #1f69ff;
 }
 
+.card figure {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.temp {
+  letter-spacing: 1pt;
+}
+
 .parent h2 {
   background-color: #0f1d2b;
   font-family: "Raleway", sans-serif;
@@ -155,16 +165,16 @@ nav ul li {
 }
 
 .dark {
-  background-color: #000;
+  background-color: #030311;
   color: #fff;
 }
 .dark #menu {
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #000;
   font-weight: 900;
 }
 .dark header {
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #000;
 }
 
@@ -173,22 +183,22 @@ nav ul li {
 }
 
 .dark #toggle {
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #000;
 }
 
 .dark footer p:nth-last-of-type(1){
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #380000;
 }
 
 .dark section {
-  background-color: #111010;
+  background-color: #030307;
   color: white;
 }
 
 .dark .parent h2 {
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #000;
 }
 
@@ -205,17 +215,13 @@ nav ul li {
 }
 
 .dark footer {
-  background-color: #b9cdee;
+  background-color: #adadad;
   color: #000;
 }
 
-/* #toggle::before {
-  content: "";
-} */
-
 #toggle img {
   background-color: #f2f1f1;
-  border-radius: 100px;
+  border-radius: 150px;
 }
 
 #toggle {
@@ -249,12 +255,20 @@ main h1 {
 section ul {
   margin: auto;
   padding: 10px;
+  text-decoration: none;
+}
+
+section a {
+  text-decoration: none;
+ 
 }
 
 section ul li {
   font-family: "Quicksand", sans-serif;
   font-weight: 800;
   padding: 5px;
+  text-decoration: none;
+  word-spacing: 5px;
 }
 
 section p {
@@ -265,8 +279,6 @@ section p {
 
 footer {
   font-family: "Quicksand", sans-serif;
-  /* border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; */
 }
 
 footer p {

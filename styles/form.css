@@ -64,6 +64,7 @@
     box-shadow: 1px 1px 4px #999;
     font-family: var(--formfont);
     font-style: italic;
+    cursor: pointer;
 }
 
 #rangesvalues {

@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"HG-Layout   "
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"   M-Queries   "
+                },
+                {
+                    "url":"https://codepen.io/budxa/pen/ZEZwgdZ",
+                    "title":"   JS-Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url":"https://codepen.io/budxa/pen/BaEgoQV",
+                    "title":"Responsive-Menu     "
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"   BoM-Application     "
+                },
+                {
+                    "url":"week02/design.html",
+                    "title":"   Design"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url":"week03/local-storage.html",
+                    "title":"Local-Storage      "
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"   Responsive-Images   "
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"   Lazy-Loading   "
+                },
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title":"   WebP"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url":"https://codepen.io/budxa/pen/vYwOmMz",
+                    "title":"CSS-Pseudo-Classes  "
+                },
+                {
+                    "url":"week04/images/Screenshot.png",
+                    "title":"  CSS-Combinators  "
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"  Table-Build  "
+                },
+                {
+                    "url":"week04/form-start/index.html",
+                    "title":"  HTML-Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url":"https://codepen.io/budxa/pen/BaeLywg",
+                    "title":"CSS-Pseudo-Elements    "
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"   JSON    "
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"   Fetch-API  "
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"   Weather-API"
+                }
+            ]
+        }
+    ]
+}
