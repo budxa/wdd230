@@ -67,10 +67,19 @@
         </div>
     </div>
     <main class="home-main">
+        <!-- <div id="banner">
+            <div>
+                <strong>Announcement:</strong> Join us Tonight at 7pm for our Chamber of commerce meet and greet on Wednesdays!
+            </div>
+            <button class="close-banner" onclick="clsBanner()">Close</button>
+        </div> -->
         <div id="first-grid">
             <section class="news-release">
                 <h3>News Release</h3>
                 <hr>
+                <figure>
+                    <img src="images/news.png" alt="News paper icon" height="422" width="512">
+                </figure>
                 <p>
                     Greendale Chamber of Commerce has been praised as a district model
                     of excellence, as it has set new benchmarks for community driven
@@ -81,10 +90,17 @@
                 </p>
             </section>
             <section class="weather">
-                <h3>Weather</h3>
+                <h3>Weather Information</h3>
                 <hr>
-                <p>Wind: <strong>9mph</strong></p>
-                <p>Wind Chill: <strong><span id="windChill"></span>&deg;</strong></p>
+                <p>Harare, Zimbabwe</p>
+                <p><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <h4>Forecast for the following 3 days</h4>
+                <div id="weather-forecast"></div>
+
             </section>
         </div>
         <div id="second-grid">
@@ -148,6 +164,7 @@
         </div>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>

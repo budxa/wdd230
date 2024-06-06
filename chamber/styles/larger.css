@@ -345,6 +345,13 @@
     grid-row: 2;
   }
 
+  #weather-forecast {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    justify-content: space-evenly;
+  }
+
   .address-section p:nth-child(5) {
     grid-column: 2;
     grid-row: 2;

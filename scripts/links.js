@@ -17,7 +17,7 @@ const displayLinks = (weeks) => {
         let listEl = document.createElement("li");
 
         listEl.innerHTML = `${weeks[index].week}: `;
-        weeks[index].links.forEach((link) => {
+        weeks[index].links.forEach((link, i) => {
             let linkEl = document.createElement("a");
             linkEl.href = link.url;
             linkEl.title = link.title;

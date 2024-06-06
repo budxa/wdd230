@@ -185,13 +185,28 @@ ul .active {
 
 /*----------------- Home Page -------------------*/
 
+
+.news-release {
+  text-align: center;
+}
+
 .news-release h3 {
   font-family: var(--heading-font);
+}
+
+.news-release img {
+  height: 75px;
+  width: auto;
+  padding: .5rem;
 }
 
 .news-release p {
   font-family: var(--paragraph-font);
   font-weight: 600;
+}
+
+.weather div p {
+  font-weight: 700;
 }
 
 .weather h3 {
@@ -285,6 +300,11 @@ ul .active {
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: var(--card-border-radius);
+}
+
+.weather {
+  text-align: center;
+  font-family: var(--paragraph-font);
 }
 
 .join:hover {
